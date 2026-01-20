@@ -4,7 +4,7 @@ from xhtml2pdf import pisa
 
 # Configuration
 INPUT_FILE = r"C:\Users\mayan\.gemini\antigravity\brain\685ebe2a-d1f5-4fce-9f36-275947cbcb4c\final_report.md"
-OUTPUT_PDF = r"d:\UIDAI data hackathon\outputs\UIDAI_Hackathon_Final_Report_Team_Antigravity.pdf"
+OUTPUT_PDF = r"d:\UIDAI data hackathon\outputs\UIDAI_5725_Final_Report.pdf"
 
 # Custom CSS for the PDF
 CSS = """

@@ -6,7 +6,7 @@
 
 ## 🎯 AGENT ROLE & PIVOT
 
-This document records the operational constraints and strategic shifts undertaken by the **Antigravity Agent** during the project lifecycle.
+This document records the operational constraints and strategic shifts undertaken by the **Analytical Agent** during the project lifecycle.
 
 ### Major Strategic Pivot (Phase 3)
 
