@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Data (Exclude large files)
+data/
+cleaned_data/
+*.csv
+*.xlsx
+*.zip
+
+# Keep sample outputs or specific CSVs if needed, but generally exclude outputs
+# outputs/
+# But we might want to keep specific outputs like the report:
+!outputs/UIDAI_Hackathon_Final_Report_Team_Antigravity.pdf
+!outputs/district_archetypes.csv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Private Project Tracking
+Task.md
+task.md

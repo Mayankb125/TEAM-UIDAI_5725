@@ -1,0 +1,27 @@
+Category                  | File                                          | Raw Rows   | Cleaned Rows | Dropped   
+--------------------------------------------------------------------------------------------------------------
+Enrolment                 | api_data_aadhar_enrolment_0_500000.csv        | 500000     | 493964       | 6036      
+Enrolment                 | api_data_aadhar_enrolment_1000000_1006029.csv | 6029       | 6029         | 0         
+Enrolment                 | api_data_aadhar_enrolment_500000_1000000.csv  | 500000     | 484196       | 15804     
+Demographic               | api_data_aadhar_demographic_0_500000.csv      | 500000     | 418793       | 81207     
+Demographic               | api_data_aadhar_demographic_1000000_1500000.csv | 500000     | 472171       | 27829     
+Demographic               | api_data_aadhar_demographic_1500000_2000000.csv | 500000     | 500000       | 0         
+Demographic               | api_data_aadhar_demographic_2000000_2071700.csv | 71700      | 71700        | 0         
+Demographic               | api_data_aadhar_demographic_500000_1000000.csv | 500000     | 500000       | 0         
+Biometric                 | api_data_aadhar_biometric_0_500000.csv        | 500000     | 489682       | 10318     
+Biometric                 | api_data_aadhar_biometric_1000000_1500000.csv | 500000     | 469415       | 30585     
+Biometric                 | api_data_aadhar_biometric_1500000_1861108.csv | 361108     | 339802       | 21306     
+Biometric                 | api_data_aadhar_biometric_500000_1000000.csv  | 500000     | 468778       | 31222     
+--------------------------------------------------------------------------------------------------------------
+Total Rows Dropped across all files: 224307
+
+==============================================================================================================
+PHASE 2.1: MERGING & DEDUPLICATION REPORT
+==============================================================================================================
+Category                  | Cross-File Overlaps Removed | Final Master Row Count
+--------------------------------------------------------------------------------------------------------------
+Enrolment Master          | 1,117                       | 983,072
+Demographic Master        | 18                          | 1,962,664
+Biometric Master          | 1,147                       | 1,766,212
+--------------------------------------------------------------------------------------------------------------
+Total Overlaps Removed: 2,282

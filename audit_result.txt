@@ -1,0 +1,15 @@
+
+--- Checking Enrolment ---
+Found 3 files.
+Columns in api_data_aadhar_enrolment_0_500000.csv: ['date', 'state', 'district', 'pincode', 'age_0_5', 'age_5_17', 'age_18_greater']
+Total rows in Enrolment: 1006029
+
+--- Checking Demographic Updates ---
+Found 5 files.
+Columns in api_data_aadhar_demographic_0_500000.csv: ['date', 'state', 'district', 'pincode', 'demo_age_5_17', 'demo_age_17_']
+Total rows in Demographic Updates: 2071700
+
+--- Checking Biometric Updates ---
+Found 4 files.
+Columns in api_data_aadhar_biometric_0_500000.csv: ['date', 'state', 'district', 'pincode', 'bio_age_5_17', 'bio_age_17_']
+Total rows in Biometric Updates: 1861108
